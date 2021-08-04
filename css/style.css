@@ -10,46 +10,67 @@
 
 .nav-link  {
     
-    font-size: 20px;
-    font-weight: bold;
+    color: rgb(1, 129, 129) !important;
     font-family: "Roboto";
+
     }
+
+    
 
     .nav-item{
         margin-left: 20px;
     }
 
 
-#particles-js {
-    position: absolute;
-    z-index: 0;
-    height: 400px;
-    width: 1900px;
+
+    .nav-link:hover {
+        color: white !important;
+        
+        -webkit-transition: color 0.5s ease-out;
+        -moz-transition: color 0.5s ease-out;
+        -o-transition: color 0.5s ease-out;
+        -ms-transition: color 0.5s ease-out;
+        transition: color 1s ease-out;
+    }
+
+    
+
+    
+.main-content {
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+        background: linear-gradient(209deg, #2bf3c0, #6ddbe1);
+        
+    
+        -webkit-animation: content-animation 1s ease infinite;
+        -moz-animation: content-animation 1s ease infinite;
+        animation: content-animation 1s ease infinite;
+    }
+    
+    @-webkit-keyframes content-animation {
+        0%{background-position:75% 0%}
+        50%{background-position:26% 100%}
+        100%{background-position:75% 0%}
+    }
+    @-moz-keyframes content-animation {
+        0%{background-position:75% 0%}
+        50%{background-position:26% 100%}
+        100%{background-position:75% 0%}
+    }
+    @keyframes content-animation {
+        0%{background-position:75% 0%}
+        50%{background-position:26% 100%}
+        100%{background-position:75% 0%}
+    
+        
 }
 
-#header-text {
-    position: absolute;
-    z-index: 1;
+.main-text {
+    color: rgb(0, 0, 0);
 }
 
-#header-text-lower {
-    position: absolute;
-    z-index: 1;
-}
 
-.title-text {
-    position: absolute;
-    margin-top: 250px;
-    z-index: 1;
-    color: white;
-}
 
-.title-text-lower {
-    position: absolute;
-    margin-top: 300px;
-    z-index: 1;
-    color: white;
-}
 
 .site-about {
     margin-bottom: 250px;
