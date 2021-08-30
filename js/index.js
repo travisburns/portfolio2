@@ -1,4 +1,4 @@
-
+const popup = document.getElementById("project-pop");
 
 
 /*animate on scroll initialise script */
@@ -55,3 +55,6 @@ function navbarFixed(){
 navbarFixed();
 
 });
+
+
+

@@ -316,3 +316,43 @@
 	padding-bottom: 1px;
 	background-color: #212529;
 }
+
+
+
+/*Projects pages */
+.main_project {
+	background-color: #212529;
+}
+
+
+
+.video {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.images{
+	display: flex;
+	justify-content: space-between;
+}
+
+.work-title {
+	background: linear-gradient(to left, #2bf3c0, #6ddbe1, #0ec78f, #2bf3c0);
+	margin-bottom: 60px;
+	text-align: center;
+	
+}
+
+.products_page_title {
+	text-align: center;
+	color: #29A0B1;
+	
+}
+
+ .project_page_design {
+	text-align: center;
+	margin-bottom: 60px;
+	color: #29A0B1;
+}
+
